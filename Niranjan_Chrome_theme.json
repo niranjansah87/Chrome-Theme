@@ -1,0 +1,2628 @@
+{
+    "nightTab": true,
+    "version": "7.3.0",
+    "state": {
+        "layout": {
+            "width": 85,
+            "title": "",
+            "alignment": "center-center",
+            "padding": 30,
+            "gutter": 40,
+            "order": "header-bookmark",
+            "size": 60,
+            "direction": "horizontal",
+            "scrollbar": "none",
+            "overscroll": true,
+            "area": {
+                "header": {
+                    "width": 79,
+                    "justify": "center"
+                },
+                "bookmark": {
+                    "width": 100,
+                    "justify": "center"
+                }
+            },
+            "breakpoint": "md",
+            "favicon": ""
+        },
+        "header": {
+            "clock": {
+                "separator": {
+                    "show": true,
+                    "text": ""
+                },
+                "meridiem": {
+                    "show": false
+                },
+                "hour24": {
+                    "show": true
+                },
+                "size": 210,
+                "newLine": false,
+                "hour": {
+                    "show": true,
+                    "display": "number"
+                },
+                "minute": {
+                    "show": true,
+                    "display": "number"
+                },
+                "second": {
+                    "show": true,
+                    "display": "number"
+                }
+            },
+            "date": {
+                "day": {
+                    "show": true,
+                    "display": "word",
+                    "weekStart": "monday",
+                    "length": "long"
+                },
+                "date": {
+                    "show": true,
+                    "display": "number",
+                    "ordinal": false
+                },
+                "month": {
+                    "show": true,
+                    "display": "word",
+                    "length": "long",
+                    "ordinal": true
+                },
+                "year": {
+                    "show": true,
+                    "display": "number"
+                },
+                "separator": {
+                    "show": true,
+                    "text": ""
+                },
+                "format": "date-month",
+                "size": 100,
+                "newLine": true
+            },
+            "search": {
+                "show": false,
+                "engine": {
+                    "selected": "google",
+                    "custom": {
+                        "url": "",
+                        "name": "",
+                        "queryName": ""
+                    }
+                },
+                "width": {
+                    "by": "auto",
+                    "size": 78
+                },
+                "text": {
+                    "justify": "left"
+                },
+                "size": 190,
+                "newLine": true,
+                "newTab": false
+            },
+            "greeting": {
+                "show": true,
+                "type": "hello",
+                "name": "Niranjan",
+                "size": 390,
+                "newLine": true,
+                "custom": ""
+            },
+            "transitional": {
+                "show": false,
+                "type": "time-and-date",
+                "size": 100,
+                "newLine": false
+            },
+            "item": {
+                "justify": "left"
+            },
+            "order": [
+                "greeting",
+                "clock",
+                "date",
+                "toolbar"
+            ],
+            "edit": false
+        },
+        "bookmark": {
+            "edit": false,
+            "style": "block",
+            "show": true,
+            "add": false,
+            "orientation": "top",
+            "url": {
+                "show": true
+            },
+            "line": {
+                "show": true
+            },
+            "shadow": {
+                "show": true
+            },
+            "hoverScale": {
+                "show": true
+            },
+            "size": 110,
+            "item": {},
+            "newTab": true
+        },
+        "group": {
+            "area": {
+                "justify": "left"
+            },
+            "name": {
+                "size": 124
+            },
+            "order": "header-body",
+            "add": false,
+            "edit": false,
+            "toolbar": {
+                "size": 111
+            }
+        },
+        "toolbar": {
+            "location": "header",
+            "position": "bottom-right",
+            "size": 80,
+            "accent": {
+                "show": true
+            },
+            "add": {
+                "show": true
+            },
+            "edit": {
+                "show": true
+            },
+            "newLine": false
+        },
+        "theme": {
+            "accent": {
+                "random": {
+                    "active": true,
+                    "style": "any"
+                },
+                "rgb": {
+                    "r": 128,
+                    "g": 77,
+                    "b": 95
+                },
+                "cycle": {
+                    "active": false,
+                    "speed": 1000,
+                    "step": 60
+                },
+                "hsl": {
+                    "h": 338,
+                    "s": 25,
+                    "l": 40
+                }
+            },
+            "style": "dark",
+            "radius": 125,
+            "color": {
+                "contrast": {
+                    "start": 15,
+                    "end": 85
+                },
+                "shades": 14,
+                "range": {
+                    "primary": {
+                        "h": 219,
+                        "s": 45
+                    }
+                }
+            },
+            "font": {
+                "display": {
+                    "name": "Kalnia",
+                    "weight": 400,
+                    "style": "normal"
+                },
+                "ui": {
+                    "name": "Averia Sans Libre",
+                    "weight": 600,
+                    "style": "normal"
+                }
+            },
+            "custom": {
+                "all": [
+                    {
+                        "name": "My custom theme",
+                        "color": {
+                            "range": {
+                                "primary": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 21
+                                }
+                            },
+                            "contrast": {
+                                "start": 13,
+                                "end": 100
+                            }
+                        },
+                        "accent": {
+                            "hsl": {
+                                "h": 179,
+                                "s": 100,
+                                "l": 50
+                            },
+                            "rgb": {
+                                "r": 0,
+                                "g": 255,
+                                "b": 252
+                            }
+                        },
+                        "font": {
+                            "display": {
+                                "name": "Baloo 2",
+                                "weight": 400,
+                                "style": "normal"
+                            },
+                            "ui": {
+                                "name": "",
+                                "weight": 400,
+                                "style": "normal"
+                            }
+                        },
+                        "background": {
+                            "color": {
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                },
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                }
+                            },
+                            "gradient": {
+                                "angle": 160,
+                                "start": {
+                                    "hsl": {
+                                        "h": 206,
+                                        "s": 16,
+                                        "l": 40
+                                    },
+                                    "rgb": {
+                                        "r": 86,
+                                        "g": 104,
+                                        "b": 118
+                                    }
+                                },
+                                "end": {
+                                    "hsl": {
+                                        "h": 219,
+                                        "s": 28,
+                                        "l": 12
+                                    },
+                                    "rgb": {
+                                        "r": 22,
+                                        "g": 28,
+                                        "b": 39
+                                    }
+                                }
+                            },
+                            "type": "image",
+                            "image": {
+                                "url": "https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3442&q=80",
+                                "blur": 0,
+                                "opacity": 50,
+                                "scale": 100,
+                                "grayscale": 0,
+                                "accent": 0,
+                                "vignette": {
+                                    "opacity": 100,
+                                    "start": 97,
+                                    "end": 31
+                                }
+                            },
+                            "video": {
+                                "url": "",
+                                "blur": 0,
+                                "opacity": 50,
+                                "scale": 100,
+                                "grayscale": 0,
+                                "accent": 0,
+                                "vignette": {
+                                    "opacity": 100,
+                                    "start": 97,
+                                    "end": 31
+                                }
+                            }
+                        },
+                        "radius": 50,
+                        "shadow": 25,
+                        "style": "dark",
+                        "shade": {
+                            "opacity": 10,
+                            "blur": 0
+                        },
+                        "opacity": {
+                            "general": 100
+                        },
+                        "layout": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 10,
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                },
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                },
+                                "blur": 0
+                            },
+                            "divider": {
+                                "size": 0
+                            }
+                        },
+                        "header": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 95,
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                },
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                }
+                            },
+                            "search": {
+                                "opacity": 56.00000000000001
+                            }
+                        },
+                        "bookmark": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 10,
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                },
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                }
+                            },
+                            "item": {
+                                "border": 0,
+                                "opacity": 100
+                            }
+                        },
+                        "group": {
+                            "toolbar": {
+                                "opacity": 100
+                            }
+                        },
+                        "toolbar": {
+                            "opacity": 100
+                        }
+                    },
+                    {
+                        "name": "Grey Grateful Elk",
+                        "color": {
+                            "range": {
+                                "primary": {
+                                    "h": 219,
+                                    "s": 45,
+                                    "l": 22
+                                }
+                            },
+                            "contrast": {
+                                "start": 15,
+                                "end": 85
+                            }
+                        },
+                        "accent": {
+                            "hsl": {
+                                "h": 180,
+                                "s": 9,
+                                "l": 89
+                            },
+                            "rgb": {
+                                "r": 224,
+                                "g": 229,
+                                "b": 229
+                            }
+                        },
+                        "font": {
+                            "display": {
+                                "name": "Kalnia",
+                                "weight": 400,
+                                "style": "normal"
+                            },
+                            "ui": {
+                                "name": "Averia Sans Libre",
+                                "weight": 600,
+                                "style": "normal"
+                            }
+                        },
+                        "background": {
+                            "type": "image",
+                            "color": {
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                },
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                }
+                            },
+                            "gradient": {
+                                "angle": 160,
+                                "start": {
+                                    "hsl": {
+                                        "h": 206,
+                                        "s": 16,
+                                        "l": 40
+                                    },
+                                    "rgb": {
+                                        "r": 86,
+                                        "g": 104,
+                                        "b": 118
+                                    }
+                                },
+                                "end": {
+                                    "hsl": {
+                                        "h": 219,
+                                        "s": 28,
+                                        "l": 12
+                                    },
+                                    "rgb": {
+                                        "r": 22,
+                                        "g": 28,
+                                        "b": 39
+                                    }
+                                }
+                            },
+                            "image": {
+                                "url": "https://pbs.twimg.com/media/EC7TiXAXYAAYopq.jpg",
+                                "blur": 0,
+                                "opacity": 50,
+                                "scale": 100,
+                                "grayscale": 0,
+                                "accent": 0,
+                                "vignette": {
+                                    "opacity": 0,
+                                    "start": 90,
+                                    "end": 70
+                                }
+                            },
+                            "video": {
+                                "url": "",
+                                "blur": 0,
+                                "opacity": 100,
+                                "scale": 100,
+                                "grayscale": 0,
+                                "accent": 0,
+                                "vignette": {
+                                    "opacity": 0,
+                                    "start": 90,
+                                    "end": 70
+                                }
+                            }
+                        },
+                        "radius": 25,
+                        "shadow": 100,
+                        "style": "dark",
+                        "shade": {
+                            "opacity": 8,
+                            "blur": 0
+                        },
+                        "opacity": {
+                            "general": 0
+                        },
+                        "layout": {
+                            "color": {
+                                "by": "custom",
+                                "blur": 75,
+                                "opacity": 5,
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                },
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                }
+                            },
+                            "divider": {
+                                "size": 0
+                            }
+                        },
+                        "header": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 10,
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                },
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                }
+                            },
+                            "search": {
+                                "opacity": 45
+                            }
+                        },
+                        "bookmark": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 10,
+                                "hsl": {
+                                    "h": 0,
+                                    "s": 0,
+                                    "l": 0
+                                },
+                                "rgb": {
+                                    "r": 0,
+                                    "g": 0,
+                                    "b": 0
+                                }
+                            },
+                            "item": {
+                                "border": 0,
+                                "opacity": 45
+                            }
+                        },
+                        "group": {
+                            "toolbar": {
+                                "opacity": 0
+                            }
+                        },
+                        "toolbar": {
+                            "opacity": 0
+                        }
+                    }
+                ],
+                "edit": false
+            },
+            "shadow": 174,
+            "shade": {
+                "opacity": 0,
+                "blur": 0
+            },
+            "opacity": {
+                "general": 100
+            },
+            "group": {
+                "toolbar": {
+                    "opacity": 100
+                }
+            },
+            "toolbar": {
+                "opacity": 100
+            },
+            "layout": {
+                "color": {
+                    "by": "custom",
+                    "blur": 50,
+                    "opacity": 10,
+                    "hsl": {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    },
+                    "rgb": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    }
+                },
+                "divider": {
+                    "size": 0
+                }
+            },
+            "header": {
+                "color": {
+                    "by": "theme",
+                    "opacity": 10,
+                    "hsl": {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    },
+                    "rgb": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    }
+                },
+                "search": {
+                    "opacity": 100
+                }
+            },
+            "bookmark": {
+                "color": {
+                    "by": "theme",
+                    "opacity": 10,
+                    "hsl": {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    },
+                    "rgb": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    }
+                },
+                "item": {
+                    "border": 1,
+                    "opacity": 100
+                }
+            },
+            "background": {
+                "type": "image",
+                "color": {
+                    "rgb": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "hsl": {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    }
+                },
+                "gradient": {
+                    "angle": 160,
+                    "start": {
+                        "hsl": {
+                            "h": 206,
+                            "s": 16,
+                            "l": 40
+                        },
+                        "rgb": {
+                            "r": 86,
+                            "g": 104,
+                            "b": 118
+                        }
+                    },
+                    "end": {
+                        "hsl": {
+                            "h": 219,
+                            "s": 28,
+                            "l": 12
+                        },
+                        "rgb": {
+                            "r": 22,
+                            "g": 28,
+                            "b": 39
+                        }
+                    }
+                },
+                "image": {
+                    "url": "https://pbs.twimg.com/media/EC7TiXAXYAAYopq.jpg",
+                    "blur": 0,
+                    "opacity": 50,
+                    "scale": 100,
+                    "grayscale": 0,
+                    "accent": 0,
+                    "vignette": {
+                        "opacity": 0,
+                        "start": 90,
+                        "end": 70
+                    }
+                },
+                "video": {
+                    "url": "",
+                    "blur": 0,
+                    "opacity": 100,
+                    "scale": 100,
+                    "grayscale": 0,
+                    "accent": 0,
+                    "vignette": {
+                        "opacity": 0,
+                        "start": 90,
+                        "end": 70
+                    }
+                }
+            }
+        },
+        "search": false,
+        "modal": false,
+        "menu": true
+    },
+    "bookmark": [
+        {
+            "name": {
+                "text": "Cool stuff",
+                "show": true
+            },
+            "collapse": false,
+            "toolbar": {
+                "openAll": {
+                    "show": true
+                },
+                "collapse": {
+                    "show": true
+                }
+            },
+            "items": [
+                {
+                    "url": "https://canva.com",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": false,
+                            "text": "Canva",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "size": 40,
+                            "letter": {
+                                "text": "AS"
+                            },
+                            "icon": {
+                                "name": "dice-d20",
+                                "prefix": "fas",
+                                "label": "Dice D20"
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 255,
+                            "s": 82,
+                            "l": 57
+                        },
+                        "rgb": {
+                            "r": 101,
+                            "g": 56,
+                            "b": 235
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 13,
+                            "l": 82
+                        },
+                        "rgb": {
+                            "r": 215,
+                            "g": 203,
+                            "b": 203
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://freelogopng.com/images/all_img/1656733637logo-canva-png.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626297988913
+                },
+                {
+                    "url": "https://www.codechef.com",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": true,
+                            "text": "Codechef",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 40,
+                            "letter": {
+                                "text": "AZ"
+                            },
+                            "icon": {
+                                "name": "amazon",
+                                "prefix": "fab",
+                                "label": "Amazon"
+                            },
+                            "image": {
+                                "url": "https://static-00.iconduck.com/assets.00/codechef-icon-380x512-r1v87w22.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 92
+                        },
+                        "rgb": {
+                            "r": 235,
+                            "g": 235,
+                            "b": 235
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626297999213
+                },
+                {
+                    "url": "https://mail.google.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": false,
+                            "text": "ChatGPT",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "size": 40,
+                            "letter": {
+                                "text": "GM"
+                            },
+                            "icon": {
+                                "name": "envelope",
+                                "prefix": "fas",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 165,
+                            "s": 82,
+                            "l": 35
+                        },
+                        "rgb": {
+                            "r": 16,
+                            "g": 163,
+                            "b": 127
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 100
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://freelogopng.com/images/all_img/1681038242chatgpt-logo-png.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626298011293
+                },
+                {
+                    "url": "https://www.reddit.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": false,
+                            "text": "Reddit",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "size": 40,
+                            "letter": {
+                                "text": "R"
+                            },
+                            "icon": {
+                                "name": "reddit-alien",
+                                "prefix": "fab",
+                                "label": "reddit Alien"
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 16,
+                            "s": 100,
+                            "l": 50
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 69,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 16,
+                            "s": 100,
+                            "l": 50
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 69,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://freelogopng.com/images/all_img/1658834272reddit-logo-transparent.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626298017175
+                },
+                {
+                    "url": "https://www.quora.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": false,
+                            "text": "Quora",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "size": 52,
+                            "letter": {
+                                "text": "N"
+                            },
+                            "icon": {
+                                "name": "quora",
+                                "prefix": "fab",
+                                "label": "Quora"
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 2,
+                            "s": 65,
+                            "l": 44
+                        },
+                        "rgb": {
+                            "r": 185,
+                            "g": 43,
+                            "b": 39
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 100,
+                            "l": 50
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://www.iconpacks.net/icons/2/free-quora-logo-icon-2439-thumb.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626298022303
+                },
+                {
+                    "url": "https://aws-emergingtalent.influitive.com/users/sign_in",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": true,
+                            "text": "AWS ETC",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 67,
+                            "letter": {
+                                "text": "DR"
+                            },
+                            "icon": {
+                                "name": "google-drive",
+                                "prefix": "fab",
+                                "label": "Drive"
+                            },
+                            "image": {
+                                "url": "https://5.imimg.com/data5/SELLER/Default/2021/8/NP/YN/DN/3775979/aws-logo.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 61,
+                            "s": 100,
+                            "l": 53
+                        },
+                        "rgb": {
+                            "r": 251,
+                            "g": 255,
+                            "b": 15
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626298028996
+                },
+                {
+                    "url": "https://newerp.kluniversity.in/index.php",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": true,
+                            "text": "KL ERP",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 68,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": "https://newerp.kluniversity.in/images/smalllogo.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705413044896
+                },
+                {
+                    "url": "https://lms.kluniversity.in/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": true,
+                            "text": "LMS",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 46,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": "https://w7.pngwing.com/pngs/961/976/png-transparent-moodle-android-educational-icon-thumbnail.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 29,
+                            "s": 95,
+                            "l": 52
+                        },
+                        "rgb": {
+                            "r": 249,
+                            "g": 128,
+                            "b": 18
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705413157485
+                },
+                {
+                    "url": "https://www.coursera.org/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": true,
+                            "text": "Coursera",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 62,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": "https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 215,
+                            "s": 100,
+                            "l": 41
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 86,
+                            "b": 210
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705413576747
+                },
+                {
+                    "url": "",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": false,
+                            "text": "",
+                            "size": 7
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "letter",
+                            "size": 25,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 264,
+                            "s": 52,
+                            "l": 46
+                        },
+                        "rgb": {
+                            "r": 104,
+                            "g": 56,
+                            "b": 178
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 264,
+                            "s": 52,
+                            "l": 46
+                        },
+                        "rgb": {
+                            "r": 104,
+                            "g": 56,
+                            "b": 178
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://images.ctfassets.net/lzny33ho1g45/4ODoWVyzgicvbcb6J9ZZZ5/c0333ef44af8588fee18c1e6ed403fc7/Group_12549.jpg?w=1520&fm=jpg&q=30&fit=thumb&h=760"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 0,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705416423839
+                },
+                {
+                    "url": "https://aspen.eccouncil.org/MyCourses",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": true,
+                            "text": "",
+                            "size": 7
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 25,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://images.credly.com/images/ae9a98b9-240b-47b1-9105-acd4f019ed1a/CEH_Badge.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 0,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705419384211
+                }
+            ]
+        },
+        {
+            "name": {
+                "text": "Dev sites",
+                "show": true
+            },
+            "collapse": false,
+            "toolbar": {
+                "openAll": {
+                    "show": true
+                },
+                "collapse": {
+                    "show": true
+                }
+            },
+            "items": [
+                {
+                    "url": "https://github.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": false,
+                            "text": "Github",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "icon",
+                            "size": 40,
+                            "letter": {
+                                "text": "GIT"
+                            },
+                            "icon": {
+                                "name": "github",
+                                "prefix": "fab",
+                                "label": "GitHub"
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 29
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626298038470
+                },
+                {
+                    "url": "https://codechef.com",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 0,
+                        "name": {
+                            "show": true,
+                            "text": "Codechef",
+                            "size": 14
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 40,
+                            "letter": {
+                                "text": "DEV"
+                            },
+                            "icon": {
+                                "name": "code",
+                                "prefix": "fas",
+                                "label": "Code"
+                            },
+                            "image": {
+                                "url": "https://static-00.iconduck.com/assets.00/codechef-icon-380x512-r1v87w22.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 100,
+                            "l": 99
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 250,
+                            "b": 250
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1626298034209
+                },
+                {
+                    "url": "https://stackoverflow.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": false,
+                            "text": "",
+                            "size": 7
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 141,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": "https://download.logo.wine/logo/Stack_Overflow/Stack_Overflow-Logo.wine.png"
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 27,
+                            "s": 90,
+                            "l": 55
+                        },
+                        "rgb": {
+                            "r": 244,
+                            "g": 128,
+                            "b": 35
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 100
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705412799351
+                }
+            ]
+        },
+        {
+            "name": {
+                "show": false,
+                "text": "Hello Nozimjon!"
+            },
+            "items": [
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "letter": {
+                                "text": "R"
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "icon": {
+                                "name": "youtube",
+                                "prefix": "fab",
+                                "label": "YouTube"
+                            },
+                            "shadow": {
+                                "size": 0
+                            },
+                            "size": 40
+                        },
+                        "name": {
+                            "show": false,
+                            "text": "Youtube",
+                            "size": 14
+                        }
+                    },
+                    "url": "https://www.youtube.com/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 100,
+                            "l": 50
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 100,
+                            "l": 50
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "timestamp": 1546453111491,
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "letter": {
+                                "text": "DEV"
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "icon": {
+                                "name": "linkedin",
+                                "prefix": "fab",
+                                "label": "LinkedIn"
+                            },
+                            "shadow": {
+                                "size": 0
+                            },
+                            "size": 40
+                        },
+                        "name": {
+                            "show": false,
+                            "text": "Linkedin",
+                            "size": 14
+                        }
+                    },
+                    "url": "https://www.linkedin.com/in/niranjan-sah/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 201,
+                            "s": 100,
+                            "l": 35
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 117,
+                            "b": 180
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "timestamp": 1546453101749,
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "letter": {
+                                "text": "AZ"
+                            },
+                            "image": {
+                                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"
+                            },
+                            "icon": {
+                                "name": "instagram",
+                                "prefix": "fab",
+                                "label": "Instagram"
+                            },
+                            "shadow": {
+                                "size": 0
+                            },
+                            "size": 40
+                        },
+                        "name": {
+                            "show": false,
+                            "text": "Instagram",
+                            "size": 14
+                        }
+                    },
+                    "url": "https://instagram.com/",
+                    "accent": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 313,
+                            "s": 59,
+                            "l": 46
+                        },
+                        "rgb": {
+                            "r": 186,
+                            "g": 48,
+                            "b": 156
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://icones.pro/wp-content/uploads/2021/02/instagram-logo-icone4.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "timestamp": 1546453107633,
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": {
+                                "text": "DR"
+                            },
+                            "image": {
+                                "url": "https://mailmeteor.com/logos/assets/PNG/Google_Drive_Logo_512px.png"
+                            },
+                            "icon": {
+                                "name": "google-drive",
+                                "prefix": "fab",
+                                "label": "Google Drive"
+                            },
+                            "shadow": {
+                                "size": 0
+                            },
+                            "size": 40
+                        },
+                        "name": {
+                            "show": true,
+                            "text": "Drive",
+                            "size": 14
+                        }
+                    },
+                    "url": "https://drive.google.com/drive/",
+                    "accent": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 5,
+                            "s": 81,
+                            "l": 56
+                        },
+                        "rgb": {
+                            "r": 234,
+                            "g": 67,
+                            "b": 53
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "timestamp": 1546453111953,
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": {
+                                "text": "GM"
+                            },
+                            "image": {
+                                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+                            },
+                            "icon": {
+                                "name": "envelope",
+                                "prefix": "fas",
+                                "label": "Envelope"
+                            },
+                            "shadow": {
+                                "size": 0
+                            },
+                            "size": 40
+                        },
+                        "name": {
+                            "show": true,
+                            "text": "Gmail",
+                            "size": 14
+                        }
+                    },
+                    "url": "https://mail.google.com/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 100
+                        },
+                        "rgb": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": ""
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "timestamp": 1546453110265,
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "icon",
+                            "letter": {
+                                "text": ""
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "icon": {
+                                "name": "facebook",
+                                "prefix": "fab",
+                                "label": "Facebook"
+                            },
+                            "shadow": {
+                                "size": 0
+                            },
+                            "size": 40
+                        },
+                        "name": {
+                            "show": false,
+                            "text": "Facebook",
+                            "size": 14
+                        }
+                    },
+                    "url": "https://facebook.com",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 215,
+                            "s": 76,
+                            "l": 34
+                        },
+                        "rgb": {
+                            "r": 21,
+                            "g": 76,
+                            "b": 153
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/480px-Facebook_Logo_%282019%29.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "timestamp": 1620855641371,
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    }
+                },
+                {
+                    "url": "https://niranjansah.com.np/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": false,
+                            "text": "Niranjan Portfolio",
+                            "size": 10
+                        },
+                        "visual": {
+                            "show": false,
+                            "type": "image",
+                            "size": 56,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 346,
+                            "s": 100,
+                            "l": 11
+                        },
+                        "rgb": {
+                            "r": 56,
+                            "g": 0,
+                            "b": 13
+                        }
+                    },
+                    "color": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://niranjansah87.com.np/assets/logo-914c1488.png"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 1,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705413452634
+                },
+                {
+                    "url": "https://niranjansah87.com.np/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "gutter": 25,
+                        "name": {
+                            "show": true,
+                            "text": "",
+                            "size": 7
+                        },
+                        "visual": {
+                            "show": true,
+                            "type": "letter",
+                            "size": 25,
+                            "letter": {
+                                "text": ""
+                            },
+                            "icon": {
+                                "name": "",
+                                "prefix": "",
+                                "label": ""
+                            },
+                            "image": {
+                                "url": ""
+                            },
+                            "shadow": {
+                                "size": 0
+                            }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 96
+                        },
+                        "rgb": {
+                            "r": 245,
+                            "g": 245,
+                            "b": 245
+                        }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": {
+                            "h": 0,
+                            "s": 0,
+                            "l": 0
+                        },
+                        "rgb": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0
+                        },
+                        "opacity": 100
+                    },
+                    "background": {
+                        "show": true,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": {
+                            "url": "https://media.licdn.com/dms/image/D4D03AQH2-7HxZlR1KA/profile-displayphoto-shrink_200_200/0/1689067657376?e=2147483647&v=beta&t=yK0t363NUirFkYsKrCLI9hEaxW-OfmnphMkCnf0Ss_A"
+                        },
+                        "video": {
+                            "url": ""
+                        }
+                    },
+                    "border": 0,
+                    "shape": {
+                        "wide": false,
+                        "tall": false
+                    },
+                    "timestamp": 1705416134859
+                }
+            ],
+            "toolbar": {
+                "openAll": {
+                    "show": false
+                },
+                "collapse": {
+                    "show": true
+                }
+            },
+            "collapse": false
+        },
+        {
+            "name": {
+                "show": false,
+                "text": "Hello Niranjan!"
+            },
+            "items": [],
+            "toolbar": {
+                "openAll": {
+                    "show": false
+                },
+                "collapse": {
+                    "show": true
+                }
+            },
+            "collapse": true
+        }
+    ]
+}
